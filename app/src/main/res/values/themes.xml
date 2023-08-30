@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ResManagement" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ResManagement" parent="Base.Theme.ResManagement" />
+
+
+    <!--Splash screen style-->
+    <style name="Theme.ResManagement.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.ResManagement</item>
+        <item name="android:windowSplashScreenBrandingImage" tools:ignore="NewApi">
+            @drawable/ic_splash_branding
+        </item>
+    </style>
+
+    <!--Image Shape Appearances-->
+    <style name="rounded_square_4">
+        <item name="cornerSize">4dp</item>
+    </style>
+    <style name="rounded_square_8">
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="rounded_square_18">
+        <item name="cornerSize">18dp</item>
+    </style>
+    <style name="rounded_square_24">
+        <item name="cornerSize">24dp</item>
+    </style>
+    <style name="rounded_square_32">
+        <item name="cornerSize">32dp</item>
+    </style>
+    <style name="rounded_square_36">
+        <item name="cornerSize">36dp</item>
+    </style>
+    <style name="rounded_square_48">
+        <item name="cornerSize">48dp</item>
+    </style>
+    <style name="rounded_square_64">
+        <item name="cornerSize">64dp</item>
+    </style>
+    <style name="rounded_square_60">
+        <item name="cornerSize">60dp</item>
+    </style>
+    <style name="rounded_square_item">
+        <item name="cornerSizeBottomRight">16dp</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeTopLeft">4dp</item>
+        <item name="cornerSizeBottomLeft">4dp</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+</resources>

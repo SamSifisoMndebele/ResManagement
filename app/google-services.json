@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "395866666741",
+    "project_id": "res-management-system",
+    "storage_bucket": "res-management-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395866666741:android:8e26172ebdeb19671237bc",
+        "android_client_info": {
+          "package_name": "com.mxolisi.resmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395866666741-ooccgait96lqkm1t94npcd90r1oivtvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6fByE2Ces49C75xZNXYcWhJkjEypKo2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395866666741-ooccgait96lqkm1t94npcd90r1oivtvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
